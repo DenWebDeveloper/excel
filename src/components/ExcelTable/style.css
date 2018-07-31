@@ -1,0 +1,25 @@
+table {
+    margin-top: 20px;
+    border: 1px solid #B0CBEF;
+    border-width: 1px 0px 0px 1px;
+    font-size: 16px;
+    font-family: Gadget, sans-serif;
+    font-weight: 100;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: normal;
+    font-size: 14px;
+    border: 1px solid #9EB6CE;
+    border-width: 0px 1px 1px 0px;
+    height: 17px;
+}
+
+td {
+    background-color: white;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid #D0D7E5;
+    border-width: 0px 1px 1px 0px;
+}

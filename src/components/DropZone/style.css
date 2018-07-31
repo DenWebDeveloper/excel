@@ -1,0 +1,20 @@
+.dropzone {
+    margin: 0 auto;
+    max-width: 1024px;
+    border: 2px dashed #9fa9a9;
+    background-color: #e0ffff;
+    color: #6a6b80;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Gadget, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.5s linear, border 0.5s linear;
+}
+
+.dropzone.active {
+    box-shadow: 0 0 20px 3px #000;
+    border: 2px solid #80818a;
+}
