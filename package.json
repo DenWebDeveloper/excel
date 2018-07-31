@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "html-react-parser": "^0.4.6",
-    "immutable": "^3.8.2",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",

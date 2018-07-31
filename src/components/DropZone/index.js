@@ -125,7 +125,6 @@ class DropZone extends Component {
 
         const input = this.wrapperInput.current.querySelector('input[type=file]');
         for (let key in attributesForInput) {
-            console.log(key.match(/[^a-zA-Z]+/));
             if (key.match(/[^a-zA-Z]+/) === null) {
                 input.setAttribute(key, attributesForInput[key])
             }
